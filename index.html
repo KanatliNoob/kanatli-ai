@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d20">
+  <meta name="description" content="KANATLI AI bağımsız yapay zekâ projesi. Geliştirme sürecini takip et.">
+  <title>KANATLI AI | Yakında</title>
+  <style>
+    :root{color-scheme:dark;--bg:#070b18;--panel:#111a32;--gold:#ffd21c;--text:#f7f8ff;--muted:#b8c1d8}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -20%,#263b75 0,transparent 55%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif;display:grid;place-items:center;padding:24px}
+    main{width:min(100%,980px);text-align:center}
+    .logo{font-weight:950;letter-spacing:.06em;font-size:clamp(2.5rem,9vw,5.8rem);line-height:1;margin:12px 0}
+    .logo span{color:var(--gold);text-shadow:0 0 24px #ffcb3866}
+    .tagline{font-size:clamp(1rem,3vw,1.35rem);color:var(--muted);margin:14px 0 28px}
+    .poster{width:100%;height:auto;border-radius:20px;border:1px solid #ffffff25;box-shadow:0 24px 80px #0009;display:block}
+    .status{margin:28px auto 18px;padding:18px 22px;width:min(100%,700px);border:1px solid #ffd21c88;border-radius:16px;background:linear-gradient(135deg,#151d35,#090e1d)}
+    .status strong{display:block;color:var(--gold);font-size:clamp(1.2rem,4vw,1.8rem)}
+    .status p{margin:8px 0 0;color:var(--muted)}
+    button{border:0;border-radius:12px;padding:16px 25px;background:linear-gradient(180deg,#ffe56b,#ffbd00);color:#171000;font-size:1.05rem;font-weight:850;cursor:pointer;box-shadow:0 8px 30px #ffcb3840}
+    button:focus-visible{outline:3px solid white;outline-offset:4px}
+    #notice{min-height:1.5em;color:var(--muted);font-size:.92rem;margin-top:12px}
+    footer{margin-top:34px;color:#8994ae;font-size:.85rem}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">KANATLI <span>AI</span></div>
+    <p class="tagline">Kendi yapay zekâmız. Kendi yolumuz.</p>
+    <img class="poster" src="assets/kanatli-ai-afis.png" alt="KANATLI AI tanıtım afişi">
+    <section class="status" aria-live="polite">
+      <strong>İlk model dosyası tamamlandı! ✓</strong>
+      <p>KANATLI AI'nin ilk kelime temsili modeli eğitildi ve model ağırlıkları kaydedildi.</p>
+    </section>
+    <section class="status" aria-live="polite">
+      <strong>Geliştirme devam ediyor…</strong>
+      <p>Bu, projenin ilk eğitim aşamasıdır. Türkçe metin üretebilen sohbet modeli henüz geliştirme aşamasındadır.</p>
+    </section>
+    <footer>KANATLI AI · Bağımsız yapay zekâ projesi</footer>
+  </main>
+</body>
+</html>
